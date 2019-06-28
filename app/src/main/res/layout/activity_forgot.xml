@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/forgotcoordinatorlayout"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".forgotpassword.ForgotActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <include layout="@layout/content_forgot" />
+
+    <com.ust.fixmyride.model.CircularImageView
+        android:id="@+id/fab3"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="top|center"
+        android:src="@drawable/logo" />
+
+</android.support.design.widget.CoordinatorLayout>

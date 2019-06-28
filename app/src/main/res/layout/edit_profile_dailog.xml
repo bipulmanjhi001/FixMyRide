@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/choosetext"
+        android:gravity="center"
+        android:background="@drawable/colorgradient"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="Edit Your Profile..."
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <Button
+      android:id="@+id/opencamera"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:text="Camera"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:background="@drawable/buttonlayout"
+      android:layout_margin="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp" />
+    <Button
+        android:id="@+id/opengallery"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Gallery"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonlayout"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- add some padding -->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="10dp">
+
+            <EditText
+                android:id="@+id/setfname"
+                android:paddingLeft="20dp"
+                android:textSize="14dp"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <!-- add some padding -->
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="10dp">
+
+        <EditText
+            android:id="@+id/setlname"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>\
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            float:fletPadding="10dp">
+        <EditText
+            android:id="@+id/setaddress"
+            android:paddingLeft="20dp"
+            android:textSize="14dp"
+            android:hint="Address"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+       </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@+id/cameralayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <Button
+        android:background="@drawable/buttonlayout"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18dp"
+        android:text="  UPDATE  "
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/btn_dialog"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">FixMyRide</string>
+    <string name="logintext1">LOGIN TO YOUR FIX MY RIDE PROFILE</string>
+    <string name="action_settings">Settings</string>
+    <string name="logintext2">THE POINT OF USING LOREM IPSUM</string>
+    <string name="logintext3">WELCOME YOUR</string>
+    <string name="logintext4">CUSTOMER LOGIN</string>
+    <string name="username">USER NAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="rememberme">REMEMBER ME</string>
+    <string name="custreg">CUSTOMER REGISTERATION</string>
+    <string name="forgotpass">FORGOT PASSWORD</string>
+
+    <string name="title_activity_register"></string>
+    <string name="welcomereg">WELCOME YOUR</string>
+    <string name="REGISTERATION">CUSTOMER REGISTRATION</string>
+    <string name="fname">FIRST NAME</string>
+    <string name="lname">LAST NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="phone">PHONE NO</string>
+    <string name="email">E-MAIL ADDRESS</string>
+    <string name="confirmpass">CONFIRM PASSWORD</string>
+    <string name="agreement">I ACCEPT YOUR TERMS &amp; CONDITIONS</string>
+
+    <string name="title_activity_forgot"></string>
+    <string name="changeforgot">CHANGE FORGOT</string>
+    <string name="FORGOT">YOUR PASSWORD</string>
+    <string name="userid">USER ID</string>
+
+    <string name="title_activity_home"></string>
+    <string name="carwash">CAR WASH</string>
+    <string name="carwashsmall">Keeping your car clean, Anywhere &amp; Anytime.</string>
+    <string name="finance">FINANCE &amp; INSURANCE</string>
+    <string name="financesmall">Book a Wash At your Preferred Time</string>
+    <string name="carrepair">CAR REPAIR</string>
+    <string name="carrepairsmall">We fix anything to do with your car.</string>
+
+
+    <string name="RoadAssistance">ROAD SIDE ASSISTANCE</string>
+    <string name="RoadAssistancesmall">24/7 Access to a Road Side service</string>
+    <string name="CarAccessories">CAR ACCESSORIES</string>
+    <string name="CarAccessoriessmall">Book a Wash At your Preferred Time</string>
+    <string name="HomeServices">IN HOME SERVICES</string>
+    <string name="HomeServicessmall">Get everything done at your home now.</string>
+
+    <string name="account">ACCOUNT</string>
+    <string name="history">HISTORY</string>
+    <string name="orders">CURRENT ORDERS</string>
+    <string name="setting">SETTINGS</string>
+    <string name="cars">MY CARS</string>
+    <string name="service">SERVICES</string>
+    <string name="contact">CONTACT US</string>
+    <string name="logout">LOGOUT</string>
+    <string name="welcome">YOU ARE WELCOME</string>
+    <string name="EMAIL">E-MAIL ADDRESS</string>
+    <string name="emailid">E-MAIL ADDRESS</string>
+    <string name="loginfb">LOGIN WITH FACEBOOK</string>
+    <string name="logingoogle">LOGIN WITH GOOGLEPLUS</string>
+
+    <string name="carwashservice">CAR WASH SERVICES</string>
+    <string name="cardetails">CAR DETAILING</string>
+    <string name="carexteriorpolish">CAR EXTERIOR POLISHING</string>
+    <string name="completecleaning">COMPLETE CLEANING</string>
+    <string name="exteriorcarwash">EXTRIOR CAR WASH</string>
+    <string name="interiorclean">INTERIOR CLEANING &amp; VACUUM</string>
+
+
+    <string name="bookingtext">PICK SERVICES IF YOU\'D LIKE OR
+    ADD NOTES TO CONTINUE BOOKING
+    </string>
+    <string name="polishingtext">CAR EXTERIOR POLISHING</string>
+    <string name="notes">ADD NOTES</string>
+    <string name="notestext">ADD EXTRA NOTES FOR YOUR SERVICE EXPERTS</string>
+    <string name="continue_booking">CONTINUE BOOKING</string>
+    <string name="addcar">ADD YOUR CAR</string>
+    <string name="brandavailable">10 CAR BRANDS IS AVAILABLE</string>
+    <string name="pickbrand">PICK YOUR BRANDS</string>
+    <string name="pickmodel">PICK YOUR MODEL</string>
+    <string name="moreinfo">MORE INFO</string>
+    <string name="modelinfo">10 CAR MODEL IS AVAILABLE</string>
+    <string name="addmore">ADD CAR MORE INFORMATION</string>
+    <string name="variant">FUEL TYPE</string>
+    <string name="petrol">PETROL</string>
+    <string name="diesel">DIESEL</string>
+    <string name="manufacture">YEAR OF MANUFACTURE</string>
+    <string name="lastservice">LAST SERVICED ON</string>
+    <string name="addcarfooter">ADD CAR</string>
+    <string name="continuemap">CONTINUE</string>
+
+    <string name="repair">CAR REPAIR</string>
+    <string name="multiplechoosetext">CAN YOU CHOOSE MULTIPLE SERVICES</string>
+    <string name="tyrecharging">TYRE CHARGING &amp; REPAIRING</string>
+    <string name="vechicletowling">VEHICLE TOWING</string>
+    <string name="batterycharging">BATTERY CHARGING</string>
+    <string name="mechnicalparts">MECHANICAL PARTS REPAIRING</string>
+    <string name="bodyparts">BODY PARTS REPLACEMENT</string>
+    <string name="carservices">CAR SERVICES</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="bookingconfirmation">BOOKING CONFIRMATION</string>
+    <string name="clickconfirmbutton">PLEASE CLICK THE CONFIRMATION BUTTON</string>
+    <string name="bookingdate">BOOKING DATE</string>
+    <string name="bookingtime">BOOKING TIME</string>
+    <string name="carpolish">CAR EXTERIOR POLISHING</string>
+    <string name="servicesrendered">SERVICES RENDERED</string>
+    <string name="servicing">SERVICING</string>
+    <string name="servicingtext">EXTERIOR WASH &amp;
+        INTERNSIVE INTEROR CLEANING / EX- TEROR WASH &amp; WAXING</string>
+    <string name="extranotes">EXTRA NOTES</string>
+    <string name="extranotestext">THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE
+    -OR-LESS NORMAL</string>
+
+    <string name="carpolishingpacks">CAR EXTERIOR POLISHING PACKS</string>
+    <string name="carpolishingpackstext">PICK SERVICES PACKS IF YOU \' D LIKE TO
+    CONTINUE BOOKING</string>
+    <string name="exteriorpolish">EXTERIOR POLISHING</string>
+    <string name="exteriorpolishprice">\u20B9 450</string>
+    <string name="expolishandinclean">EXTERIOR POLISHING &amp; INTERIOR CLEANING</string>
+    <string name="expolishandincleanprice">\u20B9 1400</string>
+    <string name="expolishandwax">EXTERIOR POLISHING &amp; WAXING </string>
+    <string name="intensiveextriorandinclean">INTENSIVE EXTERIOR &amp; INTERIOR CLEANING</string>
+    <string name="intensiveextriorandincleanprice">\u20B9 2000</string>
+    <string name="addandcontinuebooking">ADD &amp; CONTINUE BOOKING</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="distancrun">DISTANCE RUN</string>
+    <string name="registertionnumber">REGISTRATION NO </string>
+
+    <string name="bookingdetails">BOOKING DETAILS</string>
+    <string name="bookingdetailstext">PLEASE SELECT THE CAR BOOKING DETAILS</string>
+    <string name="continuebooking">CONTINUE BOOKING</string>
+    <string name="review">REVIEW</string>
+    <string name="reviewtext">PLEASE SHARE YOUR EXPERIENCE</string>
+    <string name="experiencetext">HOW WAS YOUR EXPERIENCE ?</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="experiencesharetext">PLEASE SHARE YOUR EXPERIENCE</string>
+    <string name="profiledetails">PROFILE DETAILS</string>
+    <string name="editprofile">EDIT PROFILE PHOTO</string>
+    
+    <string name="thankyoutext">YOUR ORDER # ABCD12345 IS CONFIRMED.IT HAS BEEN FORWARDED TO THE SERVICE TEAM.WE
+    WILL CONTACT YOU SHORTLY.</string>
+
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_pick">Pick your time and save it.</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">Selected Time is:</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="facebook_app_id">1781881328734688</string>
+    <string name="str_atv_places">Enter Place Here</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="clean">CLEAN</string>
+    <string name="cleantext">Take care of all your cleaning woes.Get her to sparkle and dazzle for the whole world to see.</string>
+    <string name="cleantext2">All the shine,All the time !!</string>
+    <string name="fix">FIX</string>
+    <string name="fixtext">Don\'t let anything compromise on your car care.Get all your reparing,maintanence and tune-ups done,on time,everytime!!</string>
+    <string name="vroom">VROOM</string>
+    <string name="vroomtext">Zip away in style and leave your car worries behind.Join the numerous car lovers club</string>
+    <string name="vroomtext2">and get your ride fixed,today !!</string>
+    <string name="smsmsg">We\'ve sent an OTP code on your mobile number.Please enter below to validate your registeration.</string>
+    <string name="validate">VALIDATE OTP</string>
+    <string name="resendotp">RESEND OTP</string>
+    <string name="validtime">The OTP is valid for only 7 minutes.</string>
+    <string name="version">Variant</string>
+</resources>

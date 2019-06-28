@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/current_booking_coordinatorlayout"
+    tools:context=".currentbooking.Current_Booking">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <include layout="@layout/content_current_booking" />
+
+    <com.ust.fixmyride.model.CircularImageView
+        android:id="@+id/currentbookingfab"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="top|center"
+        android:src="@drawable/logo" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/ratingcoordinatorlayout"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".rating.Rating">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <include layout="@layout/content_rating" />
+
+    <com.ust.fixmyride.model.CircularImageView
+        android:id="@+id/ratingfab"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="top|center"
+        android:src="@drawable/logo" />
+
+    <com.ust.fixmyride.model.FooterBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ratingcontinue"
+        android:background="@color/cardview_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/continue_booking"/>
+    </com.ust.fixmyride.model.FooterBarLayout>
+</android.support.design.widget.CoordinatorLayout>

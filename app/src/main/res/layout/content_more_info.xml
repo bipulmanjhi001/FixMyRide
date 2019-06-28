@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_width="1dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="ADD YOUR CAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="10 CAR BRANDS IS AVAILABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_width="1dp"
+            android:layout_height="20dp"/>
+        <View
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_width="260dp"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/circle"
+                android:layout_height="30dp" >
+                <TextView
+                    android:text="01"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/circle"
+                android:layout_height="30dp" >
+                <TextView
+                    android:text="02"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/circle"
+                android:layout_height="30dp">
+                <TextView
+                    android:text="03"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="PICK YOUR BRANDS"
+                android:textSize="8dp"
+                android:layout_marginRight="40dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="PICK YOUR MODEL"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="MORE INFO"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="10 CAR BRANDS IS AVAILABLE"
+                android:textSize="7dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="10 CAR MODELS IS AVAILABLE"
+                android:textSize="6dp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="ADD CAR MORE INFORMATION"
+                android:textSize="7dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/car_image"
+                android:layout_width="180dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="@string/variant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                    android:orientation="horizontal"
+                    android:id="@+id/moreinfogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/petrolcheckbox"
+                        android:paddingLeft="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:button="@drawable/customradiobutton"
+                        android:text="@string/petrol" />
+                    <View
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:layout_width="1dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+                    <RadioButton
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:id="@+id/dieselcheckbox"
+                        android:paddingLeft="6dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:button="@drawable/customradiobutton"
+                        android:text="@string/diesel" />
+                </RadioGroup>
+
+            </LinearLayout>
+            <View
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:text="@string/manufacture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+             <LinearLayout
+                 android:id="@+id/yearpicker"
+                 android:layout_marginTop="6dp"
+                 android:background="@color/white"
+                 android:layout_width="match_parent"
+                 android:layout_height="35dp">
+             <TextView
+                 android:id="@+id/displayyear"
+                 android:layout_weight="1"
+                 android:textColor="@color/cardview_dark_background"
+                 android:hint="ADD YEAR"
+                 android:textSize="14dp"
+                 android:textStyle="bold"
+                 android:paddingLeft="20dp"
+                 android:layout_gravity="center"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+                 <ImageView
+                     android:background="@drawable/dropdown"
+                     android:layout_width="20dp"
+                     android:layout_gravity="center"
+                     android:layout_marginRight="10dp"
+                     android:layout_height="10dp" />
+             </LinearLayout>
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"
+                android:text="@string/lastservice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/pickDate"
+                android:layout_marginTop="6dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+                <TextView
+                    android:id="@+id/displayDate"
+                    android:layout_weight="1"
+                    android:textColor="@color/cardview_dark_background"
+                    android:hint="ADD DATE"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:background="@drawable/calendar"
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/distancrun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="6dp"
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+                        <EditText
+                            android:id="@+id/kilometer"
+                            android:layout_weight="1"
+                            android:textColor="@color/cardview_dark_background"
+                            android:hint="KM"
+                            android:inputType="numberDecimal|number"
+                            android:maxLines="1"
+                            android:background="@android:color/transparent"
+                            android:visibility="visible"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:paddingLeft="20dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/registertionnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="6dp"
+                        android:layout_marginBottom="80dp"
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+                        <EditText
+                            android:id="@+id/carnumber"
+                            android:layout_weight="1"
+                            android:textColor="@color/cardview_dark_background"
+                            android:hint="WB/15/4578"
+                            android:maxLines="1"
+                            android:inputType="textCapWords"
+                            android:background="@android:color/transparent"
+                            android:textSize="14dp"
+                            android:visibility="visible"
+                            android:textStyle="bold"
+                            android:paddingLeft="20dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

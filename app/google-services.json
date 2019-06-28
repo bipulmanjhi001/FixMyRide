@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1012568051801",
+    "project_id": "ust-fix-my-ride"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012568051801:android:bc2f5850e4b6ce0e",
+        "android_client_info": {
+          "package_name": "com.ust.fixmyride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012568051801-fa6brnpajkfhislmr6i9rvgpi89997h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ust.fixmyride",
+            "certificate_hash": "53805F15D31B40CC35D8CEEC55996DB9611CAB95"
+          }
+        },
+        {
+          "client_id": "1012568051801-3pi2v2uv8qd5fvcg9cremuppea5su9p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkS5uMOgsp-r99qamOWcO1zeGmChc_9mk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

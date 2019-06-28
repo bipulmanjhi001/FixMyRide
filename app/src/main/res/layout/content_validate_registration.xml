@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/validate_registration"
+    android:background="@drawable/background"
+    android:layout_marginTop="56dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".validate.Validate_Registration">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Thank You ,"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+           <TextView
+               android:textColor="@color/white"
+               android:textStyle="bold"
+               android:text="User fname"
+               android:layout_marginLeft="10dp"
+               android:textSize="20dp"
+               android:ellipsize="end"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/smsmsg"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="4 Digit OTP Code"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <EditText
+                android:id="@+id/one"
+                android:layout_width="50dp"
+                android:inputType="none"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="match_parent" />
+            <EditText
+                android:id="@+id/two"
+                android:layout_width="50dp"
+                android:inputType="none"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="match_parent" />
+            <EditText
+                android:id="@+id/three"
+                android:layout_width="50dp"
+                android:inputType="none"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="match_parent" />
+            <EditText
+                android:id="@+id/four"
+                android:layout_width="50dp"
+                android:inputType="none"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:backgroundTint="@color/white"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    <TextView
+       android:layout_width="match_parent"
+        android:text="@string/validtime"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+       android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

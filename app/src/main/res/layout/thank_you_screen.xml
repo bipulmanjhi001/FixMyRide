@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:layout_marginRight="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/saveinpdfformat"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/google_drive_pdf_file"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/sendemail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/gmailvector"/>
+
+    </LinearLayout>
+  <TextView
+    android:id="@+id/saveconfirmid"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textSize="16dp"
+    android:layout_marginBottom="10dp"
+    android:textStyle="normal"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:textColor="@color/cardview_dark_background"
+    android:text="@string/thankyoutext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</LinearLayout>

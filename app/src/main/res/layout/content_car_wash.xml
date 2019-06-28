@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_car_wash_service"
+    android:background="@drawable/background"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carwash.Car_Wash_Service">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <View
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_height="1dp"/>
+  <TextView
+      android:layout_marginTop="6dp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textSize="20dp"
+      android:text="@string/carwashservice"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/multiplechoosetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_height="1dp"/>
+
+    <View
+        android:background="@color/white"
+        android:layout_width="1dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:background="@drawable/carwash"
+        android:layout_width="100dp"
+        android:layout_height="70dp" />
+    <View
+        android:background="@color/white"
+        android:layout_width="1dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="20dp"/>
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/right_bottom"
+            layout="@layout/content_car_wash_services" />
+    </LinearLayout>
+
+  </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

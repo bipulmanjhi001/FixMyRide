@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--&lt;!&ndash; CircularImageView Custom Styling &ndash;&gt;
+    <declare-styleable name="CircularImageView">
+
+        &lt;!&ndash; Whether or not to draw a circular border around the image. &ndash;&gt;
+        <attr name="civ_border" format="boolean"/>
+        &lt;!&ndash; The color of the border draw around the image. (if enabled) &ndash;&gt;
+        <attr name="civ_borderColor" format="color"/>
+        &lt;!&ndash; Makes the border this pixels wide. (if enabled) &ndash;&gt;
+        <attr name="civ_borderWidth" format="dimension"/>
+        &lt;!&ndash; Whether or not to draw a selector on this view upon touch events. &ndash;&gt;
+        <attr name="civ_selector" format="boolean"/>
+        &lt;!&ndash; The color of the selector draw on top of the image upon touch events. (if enabled) &ndash;&gt;
+        <attr name="civ_selectorColor" format="color"/>
+        &lt;!&ndash; The color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) &ndash;&gt;
+        <attr name="civ_selectorStrokeColor" format="color"/>
+        &lt;!&ndash; The selector stroke drawn around the image upon touch events this pixels wide. (if enabled) &ndash;&gt;
+        <attr name="civ_selectorStrokeWidth" format="dimension"/>
+        &lt;!&ndash; Whether or not to draw a shadow around your circular image. &ndash;&gt;
+        <attr name="civ_shadow" format="boolean"/>
+        &lt;!&ndash; The radius for the shadow to extend to. (if enabled) &ndash;&gt;
+        <attr name="civ_shadowRadius" format="float"/>
+        &lt;!&ndash; Horizontal shadow offset. (if enabled) &ndash;&gt;
+        <attr name="civ_shadowDx" format="float"/>
+        &lt;!&ndash; Vertical shadow offset. (if enabled) &ndash;&gt;
+        <attr name="civ_shadowDy" format="float"/>
+        &lt;!&ndash; The color of the shadow drawn around your circular image. (if enabled) &ndash;&gt;
+        <attr name="civ_shadowColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageViewStyle">
+        <attr name="circularImageViewDefault" format="reference"/>
+    </declare-styleable>-->
+    <declare-styleable name="RatingBar" tools:ignore="ResourceName">
+        <attr name="starImageSize" format="dimension"/>
+        <attr name="starImageWidth" format="dimension"/>
+        <attr name="starImageHeight" format="dimension"/>
+        <attr name="starImagePadding" format="dimension"/>
+        <attr name="starCount" format="integer"/>
+        <attr name="starNum" format="integer"/>
+        <attr name="starEmpty" format="reference"/>
+        <attr name="starFill" format="reference"/>
+        <attr name="starHalf" format="reference"/>
+        <attr name="clickable" format="boolean"/>
+        <attr name="halfstart" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+    <attr name="civ_border" format="boolean"/>
+    <attr name="civ_border_width" format="dimension"/>
+    <attr name="civ_border_color" format="color"/>
+    <attr name="civ_shadow" format="boolean"/>
+    <attr name="civ_shadow_color" format="color"/>
+    <attr name="civ_shadow_radius" format="float"/>
+  </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/pick_your_brand_coordinatorlayout"
+    tools:context=".brand.Pick_Your_Brand">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+            <com.ust.fixmyride.model.CircularImageView
+                android:background="@drawable/lady"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="MARUTI SUZUKI ALTO"
+                    android:textColor="#ffffff"
+                    android:textSize="6dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:textStyle="bold"
+                    android:id="@+id/username2"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1"
+                    android:ellipsize = "end"
+                    android:singleLine = "true" />
+                <TextView
+                    android:text="SUCCESS FULL ADD THIS CAR"
+                    android:textColor="#ffffff"
+                    android:textSize="6dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1"
+                    android:ellipsize = "end"
+                    android:padding = "3dp"
+                    android:singleLine = "true" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="JOLEA D.MCRAFLANE"
+                    android:textColor="#ffffff"
+                    android:textSize="6dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:textStyle="bold"
+                    android:id="@+id/username"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1"
+                    android:ellipsize = "end"
+                    android:singleLine = "true" />
+                <TextView
+                    android:text="JOLIAB@GMAIL.COM"
+                    android:textColor="#ffffff"
+                    android:textSize="6dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="1dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height = "match_parent"
+                    android:layout_weight = "1"
+                    android:ellipsize = "end"
+                    android:padding = "3dp"
+                    android:singleLine = "true" />
+
+            </LinearLayout>
+            <com.ust.fixmyride.model.CircularImageView
+                android:background="@drawable/smallcarimage"
+                android:layout_width="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="0dp"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <include layout="@layout/content_brand" />
+
+    <com.ust.fixmyride.model.CircularImageView
+        android:id="@+id/pickyourbrandfab"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="top|center"
+        android:src="@drawable/logo" />
+
+</android.support.design.widget.CoordinatorLayout>

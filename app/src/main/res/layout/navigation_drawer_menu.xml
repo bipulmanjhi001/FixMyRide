@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:id="@+id/startanimation"
+    android:background="@null"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/bounce"
+    android:layout_height="wrap_content">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/profileaccount"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="left|center_horizontal"
+            android:background="@drawable/homegradient"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/account"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/historyofbooking"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="left|center_horizontal"
+            android:background="@drawable/homegradient2"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/menu2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/history"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/currentorders"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="left|center_horizontal"
+            android:background="@drawable/homegradient"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"  />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/orders"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="left|center_horizontal"
+            android:background="@drawable/homegradient2"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="110dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/menu4" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/setting"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </TableRow>
+<TableRow android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="left|center_horizontal"
+        android:background="@drawable/homegradient2"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu5"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/cars"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/services"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="left|center_horizontal"
+        android:background="@drawable/homegradient"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/menu6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/service"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="left|center_horizontal"
+        android:background="@drawable/homegradient2"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu7"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logoutfromaccount"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="left|center_horizontal"
+        android:background="@drawable/homegradient"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/menu8"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</TableRow>
+</TableLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_marginTop="220dp"
+        android:gravity="bottom"
+        android:background="@color/drawercolor"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/view">
+
+    <include
+        layout="@layout/content_view" />
+
+</android.support.v7.widget.Toolbar>
+    <com.ust.fixmyride.model.CircularImageView
+        android:id="@+id/fab3"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:layout_anchor="@id/toolbar"
+        app:layout_anchorGravity="bottom|center"
+        android:src="@drawable/lady"
+        android:layout_alignTop="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+</RelativeLayout>
+</android.support.v4.widget.SlidingPaneLayout>

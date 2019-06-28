@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/activity_car_wash_service_booking"
+    android:background="@drawable/background"
+    android:layout_marginTop="56dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carwashbooking.Car_wash_Booking">
+   <LinearLayout
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   <View
+    android:background="@color/white"
+    android:layout_marginLeft="70dp"
+    android:layout_marginRight="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"/>
+   <TextView
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textSize="16dp"
+    android:layout_marginTop="6dp"
+    android:text="@string/polishingtext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:layout_marginRight="30dp"
+           android:layout_marginLeft="30dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textSize="12dp"
+           android:layout_marginTop="6dp"
+           android:text="@string/bookingtext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <View
+           android:background="@color/white"
+           android:layout_marginLeft="52dp"
+           android:layout_marginTop="6dp"
+           android:layout_marginRight="50dp"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <View
+           android:background="@color/white"
+           android:layout_width="1dp"
+           android:layout_marginBottom="4dp"
+           android:layout_height="40dp"/>
+       <ImageView
+           android:background="@drawable/carpolishing_icon"
+           android:layout_width="110dp"
+           android:layout_height="100dp" />
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginBottom="10dp"
+          android:orientation="vertical"
+          android:focusableInTouchMode="true"
+          android:layout_marginRight="20dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+      <TextView
+          android:textSize="15dp"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          android:text="@string/notes"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+         <EditText
+             android:scrollbarAlwaysDrawVerticalTrack="true"
+             android:textSize="14dp"
+             android:textColor="@color/cardview_dark_background"
+             android:gravity="top"
+             android:id="@+id/carwashservicebookingaddnotes"
+             android:background="@color/white"
+             android:padding="6dp"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:layout_marginTop="6dp"
+             android:hint="@string/notestext"
+             android:maxLines="5"
+             android:singleLine="false"
+             android:inputType="textCapCharacters"/>
+      </LinearLayout>
+
+   </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

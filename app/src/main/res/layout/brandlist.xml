@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/colorgradient"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/colorgradient"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/noimagelogo"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_weight="1"
+                       android:gravity="left"
+                       android:id="@+id/brandname"
+                       android:textSize="16dp"
+                       android:textColor="#fffefe"
+                       android:textStyle="bold"
+                       android:layout_gravity="left"
+                       android:text="AUDI"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:gravity="center"
+                       android:id="@+id/product_status"
+                       android:textSize="6dp"
+                       android:textStyle="bold"
+                       android:textColor="#fffefe"
+                       android:visibility="visible"
+                       android:layout_gravity="center"
+                       android:text="PLEASE ADD THIS CAR"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioGroup
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:id="@+id/brnadgroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_gravity="center"
+                        android:id="@+id/checkbrand"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:checked="false"
+                        android:button="@drawable/customradiobutton" />
+                </RadioGroup>
+
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="2dp"
+                    android:text="SELECT CAR BRANDS"
+                    android:textSize="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
